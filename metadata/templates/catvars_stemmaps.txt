@@ -1,0 +1,52 @@
+attributeName	code	definition
+Location	AA	Near Ann Arbor, MI (either Pinkney or Ann Arbor)
+Location	UMBS	At the University of Michigan Biological Station (Pellston, MI)
+Site	Aspen	UMBS Aspen site at 45.5520556 °N, -84.7125 °W
+Site	Balsam	UMBS Balsam Fir site at 45.54541667 °N, -84.66583333 °W
+Site	ESGRdry	Edwin S. George Reserve site at 42.45818 °N, -84.01123 °W
+Site	ESGRwet	Edwin S. George Reserve site at 42.45641 °N, -84.02054 °W
+Site	NHW	UMBS Northern Hardwoods site at 45.5673056 °N, -84.681667 °W
+Site	Pine-Aspen	UMBS Pine-Aspensite at 45.5551389 °N, -84.7475 °W
+Site	Radrick	Radrick Farms Golf Course site at 42.28738 °N, -83.65851 °W
+Site	Stinchfield	Stinchfield Woods site at 42.399347 °N, -83.925797 °W
+Species	ABBA	Abies balsamea
+Species	ACNI	Acer nigrum
+Species	ACPE	Acer pensylvanicum
+Species	ACPL	Acer platanoides
+Species	ACRU	Acer rubrum
+Species	ACSA	Acer saccharum
+Species	ACSP	Acer spicatum
+Species	AMAR	Amelanchier arborea
+Species	AMSP.	Amelanchier sp.
+Species	BEAL	Betula alleghaniensis
+Species	BEPA	Betula papyrifera
+Species	BESP.	Betula sp.
+Species	CACA	Carpinus caroliniana
+Species	CAGL	Carya glabra
+Species	CAOV	Carya ovata
+Species	COCO	Corylus cornuta
+Species	COFL	Cornus florida
+Species	FAGR	Fagus grandifolia
+Species	FRAM	Fraxinus americana
+Species	FRNI	Fraxinus nigra
+Species	JUVI	Juniperus virginiana
+Species	OSVI	Ostrya virginiana
+Species	PIBA	Pinus banksiana
+Species	PIGL	Picea glauca
+Species	PIRE	Pinus resinosa
+Species	PIST	Pinus strobus
+Species	POGR	Populus grandidentata
+Species	POTR	Populus tremuloides
+Species	PRSE	Prunus serotina
+Species	PRVI	Prunus virginiana
+Species	QUAL	Quercus alba
+Species	QURU	Quercus rubrum
+Species	QUVE	Quercus velutina
+Species	RHCA	Rhamnus cathartica
+Species	SAAL	Sassafras albidum
+Species	SASP.	Salix sp.
+Species	THOC	Thuja occidentalis
+Species	TIAM	Tilia americana
+Species	TSCA	Tsuga canadensis
+Species	ULAM	Ulmus americana
+Species	VIAC	Viburnum acericifolium

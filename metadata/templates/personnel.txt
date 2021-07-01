@@ -1,0 +1,7 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Inés		Ibáñez	University of Michigan	iibanez@umich.edu	0000-0002-1054-0727	creator			
+Inés		Ibáñez	University of Michigan	iibanez@umich.edu	0000-0002-1054-0727	PI	Associate Professor	USDA McIntire Stennis Project	F045405
+Inés		Ibáñez	University of Michigan	iibanez@umich.edu	0000-0002-1054-0727	PI	Associate Professor	NSF	DEB 1252664
+Alexandria	K	Pawlik	University of Michigan	apawlik@umich.edu	0000-0001-7806-8206	Data Curator			
+Jason		Tallant	University of Michigan Biological Station	jtallant@umich.edu	0000-0003-4790-8772	Data Manager			
+Inés		Ibáñez	University of Michigan	iibanez@umich.edu	0000-0002-1054-0727	contact			

@@ -1,0 +1,13 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Location	Region of Michigan from which data was collected, either University of Michigan Biological Station (UMBS) or Ann Arbor (AA).	categorical				
+Site	Plot designation identifies Michigan forest location of plot.	categorical				
+Species	Four-letter code for genus and species of tree.	categorical				
+Tag	Tree identification number within the plot, starts at 1 at each site.	character			
+TreeID	Tree identification number is a combination of the plot location and the individual tree, making a unique tree identification within the study.	character				
+Year	Year of data collection.	Date		YYYY		
+Diameter	DBH: diameter at breast height (1.35 m), marked with identifying tag or paint.	numeric	centimeter			
+Xplot	Distance West of SE corner of plot, which is also grid origin 0,0. Negative number for plotting on coordinate plane.	numeric	meter			
+Yplot	Distance to 0,0 or distance to SE corner of the 10x10 grid, always positive.	numeric	meter			
+Latitude	Actual latitude.	numeric	meter			
+Longitude	Actual longitude.	numeric	meter			
+Elevation	Elevation from “Add surface information” tool in 3D analyst.	numeric	meter			

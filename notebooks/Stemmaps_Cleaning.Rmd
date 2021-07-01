@@ -1,0 +1,55 @@
+---
+title: "Stem Maps Cleaning"
+output: html_notebook
+---
+
+Basic data cleaning for stemmaps excel export 
+```{r}
+library(stringr)
+library(dplyr)
+library(readr)
+options("digits" = 15)
+dt <- read_csv("~/Documents/UMBS/stemmapsAA/raw/stemmaps_export.csv", col_types = 'cccccidddddd')
+```
+
+Clean column headers
+```{r}
+names(dt)
+names(dt) <- str_to_title(names(dt))
+names(dt)[12] <- "Elevation"
+names(dt)[5] <- "TreeID"
+# names(dt)
+```
+
+Categorical variable consistency and numerical rounding
+```{r}
+# consistent case
+dt <- mutate(dt, Species = toupper(Species)) 
+
+# replace some values
+dt$Location[dt$Location == "AnnArbor"] <- "AA"
+dt$Species[dt$Species == "AMSPP."] <- "AMSP."
+dt$Species[dt$Species == "BESP"] <- "BESP."
+dt$Species[dt$Species == "SALIX SPP"] <- "SASP."
+
+# rounding
+dt$Diameter = round(dt$Diameter, digits=1)
+dt$Xplot = round(dt$Xplot, digits=1)
+dt$Yplot = round(dt$Yplot, digits=1)
+dt$Latitude = round(dt$Latitude, digits=3)
+dt$Longitude = round(dt$Longitude, digits=3)
+dt$Elevation = round(dt$Elevation, digits=6)
+
+head(dt)
+```
+
+Export
+```{r}
+write.csv(dt, file = "~/Documents/UMBS/stemmapsAA/output/stemmaps.csv", eol = "\r", row.names = FALSE)
+```
+
+
+
+
+
+
