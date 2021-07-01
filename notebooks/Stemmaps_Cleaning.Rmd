@@ -1,6 +1,6 @@
 ---
 title: "Stem Maps Cleaning"
-output: html_notebook
+author: Alexandria Pawlik (apawlik@umich.edu)
 ---
 
 Basic data cleaning for stemmaps excel export 
@@ -9,7 +9,7 @@ library(stringr)
 library(dplyr)
 library(readr)
 options("digits" = 15)
-dt <- read_csv("~/Documents/UMBS/stemmapsAA/raw/stemmaps_export.csv", col_types = 'cccccidddddd')
+dt <- read_csv("../raw/stemmaps_export.csv", col_types = 'cccccidddddd')
 ```
 
 Clean column headers
@@ -45,11 +45,19 @@ head(dt)
 
 Export
 ```{r}
-write.csv(dt, file = "~/Documents/UMBS/stemmapsAA/output/stemmaps.csv", eol = "\r", row.names = FALSE)
+write.csv(dt, file = "../output/stemmaps.csv", eol = "\r", row.names = FALSE)
 ```
 
+Following the cleaning done in this notebook, lat and long columns were removed from the table and replaced with x_point_MichGeoRef and y_point_MichGeoRef. This dataset has been reprojected to Michigan GeoRef (meters) which is more appropriate for mapping features in Michigan. Here's some info: https://www.michigan.gov/documents/DNR_Map_Proj_and_MI_Georef_Info_20889_7.pdf
 
-
+Version 2 cleaning
+```{r}
+dt <- read_csv("../versions/stemMaps_v2.csv", col_types = "-cccdcidddddd")
+head(dt)
+names(dt)[11] <- "X_Georef_Coor"
+names(dt)[12] <- "Y_Georef_Coor"
+write.csv(dt, file = "../output/stemMaps.csv", eol = "\r", row.names = FALSE)
+```
 
 
 

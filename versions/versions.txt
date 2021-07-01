@@ -1,0 +1,8 @@
+Edi.832.1
+
+Initial repo
+
+Edi.832.2
+
+Metadata changes: I removed the lat and long columns in the table and replaced them with x_point_MichGeoRef and y_point_MichGeoRef. This dataset has been reprojected to Michigan GeoRef (meters) which is more appropriate (in my opinion) for mapping features in Michigan. Here's some info: https://www.michigan.gov/documents/DNR_Map_Proj_and_MI_Georef_Info_20889_7.pdf
+- Jason tallant

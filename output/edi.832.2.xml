@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.832.2" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0/ eml.xsd" system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=umbiologicalstat,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Stem maps of eight 1 ha forest plots distributed around Ann Arbor, MI and around the University of Michigan Biological Station (UMBS)</title>
+    <creator>
+      <individualName>
+        <givenName>Inés</givenName>
+        <surName>Ibáñez</surName>
+      </individualName>
+      <organizationName>University of Michigan</organizationName>
+      <electronicMailAddress>iibanez@umich.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-1054-0727</userId>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Alexandria</givenName>
+        <givenName>K</givenName>
+        <surName>Pawlik</surName>
+      </individualName>
+      <organizationName>University of Michigan</organizationName>
+      <electronicMailAddress>apawlik@umich.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0001-7806-8206</userId>
+      <role>Data Curator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Jason</givenName>
+        <surName>Tallant</surName>
+      </individualName>
+      <organizationName>University of Michigan Biological Station</organizationName>
+      <electronicMailAddress>jtallant@umich.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-4790-8772</userId>
+      <role>Data Manager</role>
+    </associatedParty>
+    <pubDate>2021-07-01</pubDate>
+    <abstract>
+      <para>In this project we established a network of forest inventory plots to gather the data needed to forecast future forest performance under global change. Data collected from forest inventory plots, i.e., size and location of individual trees from all ages and species, have been shown to be particularly useful to link tree species demographic rates (survival, growth, age at maturity, fecundity) with community characteristics (assemblages and species turnovers), and are also widely used to estimate biomass removal (logging) and biomass production (carbon sequestration).</para>
+    </abstract>
+    <keywordSet>
+      <keyword>stem maps</keyword>
+      <keyword>UMBS</keyword>
+      <keyword>Ann Arbor</keyword>
+      <keyword>Michigan</keyword>
+      <keyword>temperate</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>tree</keyword>
+      <keyword>dbh</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <additionalInfo>
+      <para>An added strength of monitoring a network of Forest Plots, not just one stand, is that the same methods are used in data collection across sites, allowing researches to make comparisons along large geographic areas, to detect large-scale trends and to make inferences of species performance under a wide array of environmental conditions. In particular, networks facilitate: i) the detailed study of forest growth, mortality, and recruitment in a changing climate along extensive areas and forest types; ii) assessments of carbon movement through forest ecosystems and the interface between terrestrial systems and the atmosphere; iii) informing earth systems models of climate and terrestrial biomes; iv) recreating past, current, and future patterns of forest biodiversity, phenology, invasions, and biogeochemical cycling; and v) fostering collaborative research funded through national and international funding programs.</para>
+    </additionalInfo>
+    <intellectualRights>
+      <para>This data package is released to the "public domain" under Creative Commons CC0 1.0 "No Rights Reserved" (see: https://creativecommons.org/publicdomain/zero/1.0/). It is considered professional etiquette to provide attribution of the original work if this data package is shared in whole or by individual components. A generic citation is provided for this data package on the website https://portal.edirepository.org (herein "website") in the summary metadata page. Communication (and collaboration) with the creators of this data package is recommended to prevent duplicate research or publication. This data package (and its components) is made available "as is" and with no warranty of accuracy or fitness for use. The creators of this data package and the website shall not be liable for any damages resulting from misinterpretation or misuse of the data package or its components. Periodic updates of this data package may be available from the website. Thank you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Aspen</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-84.7125</westBoundingCoordinate>
+          <eastBoundingCoordinate>-84.7125</eastBoundingCoordinate>
+          <northBoundingCoordinate>45.5520556</northBoundingCoordinate>
+          <southBoundingCoordinate>45.5520556</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Balsam</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-84.66583333</westBoundingCoordinate>
+          <eastBoundingCoordinate>-84.66583333</eastBoundingCoordinate>
+          <northBoundingCoordinate>45.54541667</northBoundingCoordinate>
+          <southBoundingCoordinate>45.54541667</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Pine-Aspen</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-84.7475</westBoundingCoordinate>
+          <eastBoundingCoordinate>-84.7475</eastBoundingCoordinate>
+          <northBoundingCoordinate>45.5551389</northBoundingCoordinate>
+          <southBoundingCoordinate>45.5551389</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>NHW</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-84.681667</westBoundingCoordinate>
+          <eastBoundingCoordinate>-84.681667</eastBoundingCoordinate>
+          <northBoundingCoordinate>45.5673056</northBoundingCoordinate>
+          <southBoundingCoordinate>45.5673056</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>ESGRdry</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-84.01123</westBoundingCoordinate>
+          <eastBoundingCoordinate>-84.01123</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.45818</northBoundingCoordinate>
+          <southBoundingCoordinate>42.45818</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>ESGRwet</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-84.02054</westBoundingCoordinate>
+          <eastBoundingCoordinate>-84.02054</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.45641</northBoundingCoordinate>
+          <southBoundingCoordinate>42.45641</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Radrick</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-83.65851</westBoundingCoordinate>
+          <eastBoundingCoordinate>-83.65851</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.28738</northBoundingCoordinate>
+          <southBoundingCoordinate>42.28738</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Stinchfield</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-83.925797</westBoundingCoordinate>
+          <eastBoundingCoordinate>-83.925797</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.399347</northBoundingCoordinate>
+          <southBoundingCoordinate>42.399347</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2017-06-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2018-07-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>ongoing</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Inés</givenName>
+        <surName>Ibáñez</surName>
+      </individualName>
+      <organizationName>University of Michigan</organizationName>
+      <electronicMailAddress>iibanez@umich.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-1054-0727</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>We established forest plots within the University of Michigan properties at two locations, Ann Arbor, SE Michigan, and University of Michigan Biological Station (UMBS), northern Michigan lower peninsula. We established 1 ha (100 x 100m) plots in each of the selected forest stands, four at each location. At each forest plot we set up a 10x10 m grid marked by pvc poles at each intersection delimiting 100  m2 quadrats which were numbered to facilitate the tree census. Elevation at each node of the grid was recorded to generate high-resolution topographic maps of the plots. We used surveying and GPS equipment. In each hectare plot we tagged (with unique numbered tags), identified and measured tree diameter at breast height (dbh, 1.37 m) using tapes or calipers. all trees with at least a dbh of 1 cm were included. Tags were placed at the point-of-measured (POM, 1.37 m) for consistent measurements in further censuses, for small trees POM was marked with tree paint. Trees with several stems at 1.37 m height were marked accordingly and measured. Location in the plot of each tree was recorded. </para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Associate Professor</title>
+      <personnel>
+        <individualName>
+          <givenName>Inés</givenName>
+          <surName>Ibáñez</surName>
+        </individualName>
+        <organizationName>University of Michigan</organizationName>
+        <electronicMailAddress>iibanez@umich.edu</electronicMailAddress>
+        <userId directory="https://orcid.org">https://orcid.org/0000-0002-1054-0727</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>USDA McIntire Stennis Project F045405</funding>
+      <relatedProject>
+        <title>Associate Professor</title>
+        <personnel>
+          <individualName>
+            <givenName>Inés</givenName>
+            <surName>Ibáñez</surName>
+          </individualName>
+          <organizationName>University of Michigan</organizationName>
+          <electronicMailAddress>iibanez@umich.edu</electronicMailAddress>
+          <userId directory="https://orcid.org">https://orcid.org/0000-0002-1054-0727</userId>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>NSF DEB 1252664</funding>
+      </relatedProject>
+    </project>
+    <dataTable>
+      <entityName>Tree Measurements</entityName>
+      <entityDescription>Tree species and DBH census for 8 forest plots</entityDescription>
+      <physical>
+        <objectName>stemmaps.csv</objectName>
+        <size unit="bytes">1156171</size>
+        <authentication method="MD5">a793409266098e3238d2493efbb08429</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Location</attributeName>
+          <attributeDefinition>Region of Michigan from which data was collected, either University of Michigan Biological Station (UMBS) or Ann Arbor (AA).</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>AA</code>
+                    <definition>Near Ann Arbor, MI (either Pinkney or Ann Arbor)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>UMBS</code>
+                    <definition>At the University of Michigan Biological Station (Pellston, MI)</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeDefinition>Plot designation identifies Michigan forest location of plot.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Aspen</code>
+                    <definition>UMBS Aspen site at 45.5520556 °N, -84.7125 °W</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Balsam</code>
+                    <definition>UMBS Balsam Fir site at 45.54541667 °N, -84.66583333 °W</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ESGRdry</code>
+                    <definition>Edwin S. George Reserve site at 42.45818 °N, -84.01123 °W</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ESGRwet</code>
+                    <definition>Edwin S. George Reserve site at 42.45641 °N, -84.02054 °W</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NHW</code>
+                    <definition>UMBS Northern Hardwoods site at 45.5673056 °N, -84.681667 °W</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Pine-Aspen</code>
+                    <definition>UMBS Pine-Aspensite at 45.5551389 °N, -84.7475 °W</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Radrick</code>
+                    <definition>Radrick Farms Golf Course site at 42.28738 °N, -83.65851 °W</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Stinchfield</code>
+                    <definition>Stinchfield Woods site at 42.399347 °N, -83.925797 °W</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Species</attributeName>
+          <attributeDefinition>Four-letter code for genus and species of tree.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>ABBA</code>
+                    <definition>Abies balsamea</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ACNI</code>
+                    <definition>Acer nigrum</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ACPE</code>
+                    <definition>Acer pensylvanicum</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ACPL</code>
+                    <definition>Acer platanoides</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ACRU</code>
+                    <definition>Acer rubrum</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ACSA</code>
+                    <definition>Acer saccharum</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ACSP</code>
+                    <definition>Acer spicatum</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AMAR</code>
+                    <definition>Amelanchier arborea</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AMSP.</code>
+                    <definition>Amelanchier sp.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BEAL</code>
+                    <definition>Betula alleghaniensis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BEPA</code>
+                    <definition>Betula papyrifera</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BESP.</code>
+                    <definition>Betula sp.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CACA</code>
+                    <definition>Carpinus caroliniana</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CAGL</code>
+                    <definition>Carya glabra</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CAOV</code>
+                    <definition>Carya ovata</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>COCO</code>
+                    <definition>Corylus cornuta</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>COFL</code>
+                    <definition>Cornus florida</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FAGR</code>
+                    <definition>Fagus grandifolia</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FRAM</code>
+                    <definition>Fraxinus americana</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FRNI</code>
+                    <definition>Fraxinus nigra</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>JUVI</code>
+                    <definition>Juniperus virginiana</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>OSVI</code>
+                    <definition>Ostrya virginiana</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PIBA</code>
+                    <definition>Pinus banksiana</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PIGL</code>
+                    <definition>Picea glauca</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PIRE</code>
+                    <definition>Pinus resinosa</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PIST</code>
+                    <definition>Pinus strobus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>POGR</code>
+                    <definition>Populus grandidentata</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>POTR</code>
+                    <definition>Populus tremuloides</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PRSE</code>
+                    <definition>Prunus serotina</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PRVI</code>
+                    <definition>Prunus virginiana</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>QUAL</code>
+                    <definition>Quercus alba</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>QURU</code>
+                    <definition>Quercus rubrum</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>QUVE</code>
+                    <definition>Quercus velutina</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RHCA</code>
+                    <definition>Rhamnus cathartica</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SAAL</code>
+                    <definition>Sassafras albidum</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SASP.</code>
+                    <definition>Salix sp.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>THOC</code>
+                    <definition>Thuja occidentalis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TIAM</code>
+                    <definition>Tilia americana</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TSCA</code>
+                    <definition>Tsuga canadensis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ULAM</code>
+                    <definition>Ulmus americana</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>VIAC</code>
+                    <definition>Viburnum acericifolium</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Tag</attributeName>
+          <attributeDefinition>Tree identification number within the plot, starts at 1 at each site.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Tree identification number within the plot, starts at 1 at each site.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TreeID</attributeName>
+          <attributeDefinition>Tree identification number is a combination of the plot location and the individual tree, making a unique tree identification within the study.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Tree identification number is a combination of the plot location and the individual tree, making a unique tree identification within the study.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Year</attributeName>
+          <attributeDefinition>Year of data collection.</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Diameter</attributeName>
+          <attributeDefinition>DBH: diameter at breast height (1.35 m), marked with identifying tag or paint.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">97.6</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Xplot</attributeName>
+          <attributeDefinition>Distance West of SE corner of plot, which is also grid origin 0,0. Negative number for plotting on coordinate plane.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-101</minimum>
+                  <maximum exclusive="false">0</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Yplot</attributeName>
+          <attributeDefinition>Distance to 0,0 or distance to SE corner of the 10x10 grid, always positive.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Elevation</attributeName>
+          <attributeDefinition>Elevation from “Add surface information” tool in 3D analyst.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">186.377638</minimum>
+                  <maximum exclusive="false">303.860922</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>X_Georef_Coor</attributeName>
+          <attributeDefinition>X coordinate of tree, reprojected to Michigan GeoRef https://www.michigan.gov/documents/DNR_Map_Proj_and_MI_Georef_Info_20889_7.pdf</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">597477.582600001</minimum>
+                  <maximum exclusive="false">692956.5383</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Y_Georef_Coor</attributeName>
+          <attributeDefinition>Y coordinate of tree, reprojected to Michigan GeoRef https://www.michigan.gov/documents/DNR_Map_Proj_and_MI_Georef_Info_20889_7.pdf</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">195731.4012</minimum>
+                  <maximum exclusive="false">558227.878699999</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>11417</numberOfRecords>
+    </dataTable>
+    <otherEntity>
+      <entityName>R Code</entityName>
+      <entityDescription>R scripts for data and metadata cleaning</entityDescription>
+      <physical>
+        <objectName>notebooks.zip</objectName>
+        <size unit="bytes">2732</size>
+        <authentication method="MD5">ccb0d535d108b5f92956a9d32bbcb4f2</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>Source</entityName>
+      <entityDescription>Source data for R scripts</entityDescription>
+      <physical>
+        <objectName>raw.zip</objectName>
+        <size unit="bytes">1184944</size>
+        <authentication method="MD5">5f8c20ce4f0523db7e911e3576586bfd</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>Site location information</entityName>
+      <entityDescription>Further information about each site location</entityDescription>
+      <physical>
+        <objectName>site_info.pdf</objectName>
+        <size unit="bytes">84780</size>
+        <authentication method="MD5">4a036822c5bb61df56286989d28eca52</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>GIS georeferencing source files</entityName>
+      <entityDescription>ArcGIS files used to compute X and Y georeferenced coordinates</entityDescription>
+      <physical>
+        <objectName>Ibanez_stemMaps_MichGeoRef_meters.zip</objectName>
+        <size unit="bytes">653156</size>
+        <authentication method="MD5">76fe487dbf50d4118ed6e855b09d4f9e</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>

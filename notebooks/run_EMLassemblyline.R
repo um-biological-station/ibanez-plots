@@ -9,9 +9,9 @@ library(EMLassemblyline)
 
 # Define paths for your metadata templates, data, and EML
 
-path_templates <- "~/Documents/UMBS/stemmapsAA/metadata/templates"
-path_data <- "~/Documents/UMBS/stemmapsAA/output"
-path_eml <- "~/Documents/UMBS/stemmapsAA/output"
+path_templates <- "~/apawlik/ibanez-plots/metadata/templates"
+path_data <- "~/apawlik/ibanez-plots/output"
+path_eml <- "~/apawlik/ibanez-plots/output"
 
 # Create metadata templates ---------------------------------------------------
 
@@ -72,7 +72,7 @@ EMLassemblyline::template_geographic_coverage(
 # Once all your metadata templates are complete call this function to create 
 # the EML.
 
-Pid <- "edi.832.1"
+Pid <- "edi.832.2"
 Sid <- "edi.218.1"
 
 EMLassemblyline::make_eml(
@@ -85,9 +85,9 @@ EMLassemblyline::make_eml(
   data.table = "stemmaps.csv", 
   data.table.name = "Tree Measurements",
   data.table.description = "Tree species and DBH census for 8 forest plots",
-  other.entity = c("notebooks.zip", "raw.zip", "site_info.pdf"),
-  other.entity.name = c("R Code", "Source", "Site location information"),
-  other.entity.description = c("R scripts for data and metadata cleaning", "Source data for R scripts", "Further information about each site location"),
+  other.entity = c("notebooks.zip", "raw.zip", "site_info.pdf", "Ibanez_stemMaps_MichGeoRef_meters.zip"),
+  other.entity.name = c("R Code", "Source", "Site location information", "GIS georeferencing source files"),
+  other.entity.description = c("R scripts for data and metadata cleaning", "Source data for R scripts", "Further information about each site location", "ArcGIS files used to compute X and Y georeferenced coordinates"),
   user.id = "umbiologicalstat",
   user.domain = "EDI", 
   package.id = Pid)
